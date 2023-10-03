@@ -16,5 +16,5 @@ export const ContactSearchFilter = ({ filter, handleChangeFilter }) => (
 
 ContactSearchFilter.propTypes = {
     filter: PropTypes.string.isRequired,
-    onChangeFilter: PropTypes.func.isRequired,
+    handleChangeFilter: PropTypes.func.isRequired,
 }
